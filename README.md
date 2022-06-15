@@ -7,7 +7,7 @@ It includes everything you need to communicate with your HUE-Bridge directly usi
 You wont be dependent on badly maintined contribs anymore, controlling your lamps.
 This is made to give YOU satisfaction and happyness!
 
-Sorry if this does not look very professionaal here, its my first repository :)
+Sorry if this does not look very professional here, its my first repository :)
 
 
 This flow just needs a very cool contrib, that need zero maintainance! 
