@@ -31,6 +31,7 @@ The Name of everthing you have given in the App, will be in the Metadata payload
 I attached some pictures how the payload looks like.
 
 It would make me happy if some of you could end your struggle with not working contribs!
+If you need help, pull a request or start a discussion, Thanks!
 
 
 
