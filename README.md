@@ -20,6 +20,8 @@ Thanks to yadomi making this one!
 Before importing my Flow, it is important to install yadomi´s contrib first!
 --------------------------------------
 
+Just import the Data from the HUE API V2 HTTP REQUEST.json into a new Flow Tab
+
 The Flow has a lot of Comments, it should be easy to figure everything out.
 Depending on how much lights you have, this can take a reasonable amount of time to set it up...
 But believe me, its absolutely worth it!
