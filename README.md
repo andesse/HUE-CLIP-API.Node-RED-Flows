@@ -3,7 +3,7 @@
 Hey,
 
 this small respository is actually just an Example Flow.
-It includes everything you need to communicate with your HUE-Bridge directly using hppts-request via API V2.
+It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2.
 You wont be dependent on badly maintined contribs anymore, controlling your lamps.
 This is made to give YOU satisfaction and happyness!
 
