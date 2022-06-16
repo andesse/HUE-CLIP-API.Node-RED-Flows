@@ -38,6 +38,7 @@ Colors get more complicated. These are x/y values now. To determine the right va
 Open the payload until you find the x/y values and use these. In general in recommend to trigger scenes and not controlling seperate lamps.
 
 I attached some pictures how the flows / payload / xy Color look like.
+For a full API Documentation you cloud create an Account at: https://developers.meethue.com/
 
 Hope if some of you can end the struggle with not working contribs!
 If you need help, pull a request or start a discussion, Thanks!
