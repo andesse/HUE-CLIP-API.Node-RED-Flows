@@ -37,7 +37,14 @@ The additional two Files cotain seperately the Sub-Flows and the change nodes wi
 It might come handy to import these again in some situations.
 
 Colors get more complicated. These are x/y values now. To determine the right value i recommend to cahnge the color in the app and watch the Event stream.
-Open the payload until you find the x/y values and use these. In general in recommend to trigger scenes and not controlling seperate lamps.
+Open the payload until you find the x/y values and use these. 
+
+
+In general in recommend to trigger scenes and not controlling seperate lamps.
+Another recommendation is to setup your whole HUE System in one Flow Tab, using Link out/in Nodes to create connections to your Rooms. 
+>> LABEL your Link in/out Nodes, otherwise it will be too confusing. ;)
+
+
 
 I attached some pictures how the flows / payload / xy Color look like.
 
