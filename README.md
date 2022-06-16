@@ -5,8 +5,8 @@ Hey,
 this small respository is actually just an Example Flow.
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2.
 You wont be dependent on badly maintined contribs anymore, controlling your lamps.
-This is made to give YOU satisfaction and happyness!
-Thanks to user ralfhille, who helped me with the header a lot!
+
+Thanks to user ralfhille, who created the header node!
 
 Sorry if this does not look very professional here, its my first repository :)
 
