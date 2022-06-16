@@ -1,4 +1,4 @@
-# node-red-hue-clip-api-flows
+# hue-clip-api.node-red-flows
 
 Hey,
 
