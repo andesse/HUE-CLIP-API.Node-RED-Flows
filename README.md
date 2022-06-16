@@ -1,4 +1,5 @@
-![Unbenannt](https://user-images.githubusercontent.com/76150626/174095891-28d34baf-e598-41b7-aa1c-2ce59843b951.PNG)
+![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
+
 
 # hue-clip-api.node-red-flows
 
