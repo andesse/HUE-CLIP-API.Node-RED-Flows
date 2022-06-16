@@ -30,17 +30,17 @@ Depending on how much lights you have, this can take a reasonable amount of time
 But believe me, its absolutely worth it!
 
 First you need to fill in your Data in the Nodes, after that you need to discover your device ID´s and RID´s.
-You are doing this using the specific Inject Nodes for the Endpoints you want to disscover, then unfold the whole payload.
-The Name of everthing you have given in the App, will be in the Metadata payload, so you know, which ID you just discoverd.
+This works using the specific inject Nodes for the Endpoints you want to discover, then unfold the whole payload.
+The Name of you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
 
-The additional two Files cotain seperately the Sub-Flows and the change nodes with different actions. These are already included in the main File.
-It might come handy to import these again in some situations.
+The additional two Files in this repository contain seperately the Sub-Flows and the Change-Nodes with different actions. 
+These are already included in the main File. It might come handy to import these again in some situations.
 
-Colors get more complicated. These are x/y values now. To determine the right value i recommend to cahnge the color in the app and watch the Event stream.
+Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the Event stream.
 Open the payload until you find the x/y values and use these. 
 
 
-In general in recommend to trigger scenes and not controlling seperate lamps.
+In general in recommend to trigger scenes and not controlling seperate lamps. The Bridge is just able to receive max! 5 light / 1 room request per second, less is better. Use delay Nodes in 200-400ms range if you might have a Situation, that something is not triggered.
 Another recommendation is to setup your whole HUE System in one Flow Tab, using Link out/in Nodes to create connections to your Rooms. 
 >> LABEL your Link in/out Nodes, otherwise it will be too confusing. ;)
 
