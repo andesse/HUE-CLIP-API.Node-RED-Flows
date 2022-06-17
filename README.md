@@ -32,7 +32,7 @@ But believe me, its absolutely worth it!
 
 First you need to fill in your Data in the Nodes, after that you need to discover your device ID´s and RID´s.
 This works using the specific inject Nodes for the Endpoints you want to discover, then unfold the whole payload.
-The Name of you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
+The Name that you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
 
 The additional two files in this repository contain seperately the Sub-Flows and the Change-Nodes with different actions. 
 These are already included in the main File. It might come handy to import these again in some situations.
