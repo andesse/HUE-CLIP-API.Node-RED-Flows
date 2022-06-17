@@ -111,5 +111,6 @@ My own setup with 2 Bridges / 46 Lights / 6 Motion Sensors / 6 Button / Scenes
 ---
 everything in one Flow Tab, using named link in nodes to connect it to my rooms.
 You also may recognise some pink delay nodes as described.
+Splitting up rooms on seperate header / http nodes for even better reliability.
 
 ![IMG_2199](https://user-images.githubusercontent.com/76150626/174289138-f115d757-b054-4122-9439-16d89cb370d3.jpeg)
