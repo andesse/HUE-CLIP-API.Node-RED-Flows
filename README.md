@@ -7,7 +7,7 @@ Hey,
 
 this small respository is actually just an example Flow.
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2 (CLIP API)
-You wont be dependent on badly maintined contribs anymore, controlling your lamps.
+You wont be dependent on badly maintained contribs anymore.
 
 Thanks to user ralfhille, who created the header node!
 
