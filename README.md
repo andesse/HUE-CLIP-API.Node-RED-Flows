@@ -3,11 +3,9 @@
 
 # hue-clip-api.node-red-flows
 
-Hey,
-
-this small respository is actually just an example Flow.
+This small respository is actually just an example Flow.
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2 (CLIP API)
-You wont be dependent on badly maintained contribs anymore.
+You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
 
 Thanks to user ralfhille, who created the header node!
 
@@ -19,9 +17,9 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 
 Thanks to yadomi making this one!
 
-Before importing my Flow, it is important to install yadomi´s contrib first!
+Before importing my Flow, it is important to install yadomi´s contrib first
 ---
-DEPLOYING THE FLOW WITHOUT THIS CONTRIB CAN LEAD TO A BOOT LOOP OF YOUR NODE-RED!!!
+DEPLOYING THE FLOW WITHOUT THIS CONTRIB CAN LEAD TO A RESTART & BOOT LOOP OF YOUR NODE-RED!
 ---
 
 Import the Data from the :arrow_right: ***HUE-CLIP-API_Node-Red-Flows.json*** :arrow_left: into a new Flow Tab, AFTER YOU READ THE FULL README!
