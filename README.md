@@ -35,6 +35,10 @@ The Name that you have given in the App for Lights, Rooms, etc., will be in the 
 The additional two files in this repository contain seperately the Sub-Flows and the Change-Nodes with different actions. 
 These are already included in the main File. It might come handy to import these again in some situations.
 
+Github User marc-gist made a really nice "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node.
+It is included in the updated main Flow and can also downloaded seperately. (Helper Functions Flow.json)
+I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
+
 Colors get more complicated. These are x/y values now. 
 To determine the right value I recommend to change the color in the app and watch the Event stream.
 Open the color payload until you find the x/y values and use these. 
@@ -59,10 +63,9 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Main Flow:
 ------------
-![HUE-CLIP-API](https://user-images.githubusercontent.com/76150626/174089776-de923d78-48eb-4a4b-9b53-53bc0f88ce3e.PNG)
+![hue api flow](https://user-images.githubusercontent.com/76150626/174452040-903b8f21-52b8-4141-8bf7-b7fd7997d74f.PNG)
 
 -----------------------------------------------------------
-
 
 Sub-Flows:
 ---
@@ -75,6 +78,11 @@ Action Change Nodes:
 ![change nodes](https://user-images.githubusercontent.com/76150626/174089961-f4e00eb9-8726-44b9-8d44-d422000f133e.PNG)
 
 -----------------------------------------------------------
+
+Helper Functions for RID / ID discovery (made by user marc-gist - THANKS!)
+---
+![helper flow](https://user-images.githubusercontent.com/76150626/174452070-3a5eab5b-f6f6-468f-970b-f9f1bad70897.PNG)
+
 
 x/y Color:
 ------------
