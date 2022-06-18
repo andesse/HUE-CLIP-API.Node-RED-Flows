@@ -15,7 +15,7 @@ This flow has one contrib, that need zero maintainance!
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-Thanks to yadomi making this one!
+Thanks to yadomi making this contrib!
 
 Before importing my Flow, it is important to install yadomi´s contrib first
 ---
