@@ -36,7 +36,7 @@ The additional two files in this repository contain seperately the Sub-Flows and
 These are already included in the main File. It might come handy to import these again in some situations.
 
 Github User marc-gist made a really nice "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node.
-It is included in the updated main Flow and can also downloaded seperately. (Helper Functions Flow.json)
+It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow.json)
 I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
 
 Colors get more complicated. These are x/y values now. 
