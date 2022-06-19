@@ -6,6 +6,11 @@ This small respository is actually just an example Flow.
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2 (CLIP API)
 You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
 
+With Version 3.1 this is almost as easy to setup like some contribs that are available.
+I am assuming a setup with 1 bridge, 30 lights, 4 motion sensors, 5 buttons, 25 scenes can be done in 2 hours.
+Dont be afraid, replace step-by-step, it will be easy. :)
+
+
 Thanks to user ralfhille, who created the header node!
 
 >>Version 3.1 Update Info below
