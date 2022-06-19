@@ -32,7 +32,7 @@ First you need to fill in your Data in the Nodes, after that you need to discove
 This works using the specific inject Nodes for the Endpoints you want to discover, then unfold the whole payload.
 The Name that you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
 
-The additional two files in this repository contain seperately the Sub-Flows and the Change-Nodes with different actions. 
+The additional files in this repository contain seperately the Sub-Flows, Change-Nodes, Helper Flow. 
 These are already included in the main File. It might come handy to import these again in some situations.
 
 Github User marc-gist made a really nice concept for a "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node. It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow_v2.json)
