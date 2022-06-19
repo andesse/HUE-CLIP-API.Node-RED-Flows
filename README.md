@@ -1,6 +1,5 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-
 # hue-clip-api.node-red-flows
 
 This small respository is actually just an example Flow.
@@ -9,6 +8,7 @@ You wont be dependent on badly maintained contribs anymore. It has example nodes
 
 Thanks to user ralfhille, who created the header node!
 
+>>Version 3.1 Update Info below
 
 This flow has one contrib, that need zero maintainance! 
 ------------
@@ -57,6 +57,21 @@ Hope this ends the struggle with your HUE Setup.
 Mine runs completly zero issue since i made it, no trouble with my wife anymore. :sweat_smile:
 
 If you need help, pull a request or start a discussion, Thanks!
+
+
+Version 3.1 Update:
+--
+This version comes with an upgraded "Helper Function Flow"
+It let you easily discover:
+
+- Room IDs / RIDs
+- Zone IDs / RIDs
+- Lamp IDs
+- Motion Sensor IDs
+- Button IDs
+
+These are stored in context (default) until they are overwritten or erased.
+With another Flow additional included, you can recall all these Informations as an array, or seperately.
 
 
 
