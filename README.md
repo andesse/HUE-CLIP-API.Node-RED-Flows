@@ -63,7 +63,8 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Main Flow:
 ------------
-![hue api flow](https://user-images.githubusercontent.com/76150626/174452040-903b8f21-52b8-4141-8bf7-b7fd7997d74f.PNG)
+![HUE-CLIP-API_Node-Red-Flows](https://user-images.githubusercontent.com/76150626/174495403-8744d481-e0d6-40d5-8497-0bf7abebe022.PNG)
+
 
 -----------------------------------------------------------
 
@@ -79,9 +80,10 @@ Action Change Nodes:
 
 -----------------------------------------------------------
 
-Helper Functions for RID / ID discovery (made by user marc-gist - THANKS!)
+Helper Functions for RID / ID discovery (concept by user marc-gist - THANKS!)
 ---
-![helper flow](https://user-images.githubusercontent.com/76150626/174452070-3a5eab5b-f6f6-468f-970b-f9f1bad70897.PNG)
+![helper_functions_flow_v2](https://user-images.githubusercontent.com/76150626/174495416-dbb394b5-c012-482c-a119-eb16cd073171.PNG)
+
 
 
 x/y Color:
