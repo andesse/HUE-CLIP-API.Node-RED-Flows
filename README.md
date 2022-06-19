@@ -110,28 +110,6 @@ x/y Color:
 ![IMG_2176](https://user-images.githubusercontent.com/76150626/174091836-1fad1f1d-dd5f-479e-b3ee-bf6b25c18eff.PNG)
 
 
-Lamps:
--------
-
-![light](https://user-images.githubusercontent.com/76150626/173955018-5741e7fb-ef3d-42c7-8629-99135bcef0ab.PNG)
-
------------------------------------------------------------
-
-Rooms/Zones:
-------------
-![rooms](https://user-images.githubusercontent.com/76150626/173955041-0097529e-0e40-4473-b7d4-28fe3282b258.PNG)
-
------------------------------------------------------------
-
-Motion:
-------------
-![motion](https://user-images.githubusercontent.com/76150626/173955078-c922dcb2-ad4c-4501-b574-07f4d8da416a.PNG)
-
------------------------------------------------------------
-
-Scenes:
-------------
-![scene](https://user-images.githubusercontent.com/76150626/173955095-50fd8649-7bf1-4074-bd7f-7624cbffb7c6.PNG)
 
 My own setup with 2 Bridges / 46 Lights / 6 Motion Sensors / 6 Button / Scenes
 ---
