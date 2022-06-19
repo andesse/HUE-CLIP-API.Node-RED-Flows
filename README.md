@@ -35,8 +35,7 @@ The Name that you have given in the App for Lights, Rooms, etc., will be in the 
 The additional two files in this repository contain seperately the Sub-Flows and the Change-Nodes with different actions. 
 These are already included in the main File. It might come handy to import these again in some situations.
 
-Github User marc-gist made a really nice "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node.
-It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow.json)
+Github User marc-gist made a really nice concept for a "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node. It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow_v2.json)
 I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
 
 Colors get more complicated. These are x/y values now. 
@@ -50,7 +49,7 @@ Another recommendation is to setup your whole HUE System in one Flow Tab, using 
 
 
 
-I attached some pictures how the flows / payload / xy Color look like / a screenshot of my own setup
+I attached some pictures how the flows / payload / xy Color look like / helper function flow v2 / a screenshot of my own setup
 
 For a full API Documentation you could create an Account at: https://developers.meethue.com/
 
