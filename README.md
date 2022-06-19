@@ -72,7 +72,7 @@ It let you easily discover:
 These are stored in context (default) until they are overwritten or erased.
 With another Flow additional included, you can recall all these Informations as an array, or seperately.
 
-
+PS: there are probably some typos, or other small misttakes in this repository. I launched it in no-time, because i know how high the needs are for a working hue-setup at the moment. Forgive me ;)
 
 Main Flow:
 ------------
