@@ -3,7 +3,7 @@
 # hue-clip-api.node-red-flows
 
 This small respository is actually just an example Flow.
-It includes everything you need to communicate with your HUE-Bridge directly using https-request via API V2 (CLIP API)
+It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
 You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
 
 With Version 3.1 this is almost as easy to setup like some contribs that are available.
@@ -11,7 +11,7 @@ I am assuming a setup with 1 bridge, 30 lights, 4 motion sensors, 5 buttons, 25 
 Dont be afraid, replace step-by-step, it will be easy. :)
 
 
-Thanks to user ralfhille, who created the header node!
+Thanks to user ralfhille, who created the header node and the concept!
 
 >>Version 3.1 Update Info below
 
@@ -37,16 +37,15 @@ First you need to fill in your Data in the Nodes, after that you need to discove
 This works using the specific inject Nodes for the Endpoints you want to discover, then unfold the whole payload.
 The Name that you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
 
-The additional files in this repository contain seperately the Sub-Flows, Change-Nodes, Helper Flow, a "get state" node and a different header node. These are already included in the main File. It might come handy to import these again in some situations.
+The additional files in this repository contain seperately the Sub-Flows, Change-Nodes, Helper Flow, a "get state" node and a different header node. These are already included in the main File. It might come handy to import these when you downloaded a previous release.
 
-Github User marc-gist made a really nice concept for a "helper flow" that makes it easier to discover ID / RID. The flow link in Node need to be connected to the http node. It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow_v2.json)
-I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
+Github User marc-gist made a really nice concept for a "helper flow" that makes it easier to discover ID / RID. It's parsing the event-stream payload into a better format. The flow link in Node need to be connected to the http node. It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow_v2.json). I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
 
 Colors get more complicated. These are x/y values now. 
 To determine the right value I recommend to change the color in the app and watch the Event stream.
 Open the color payload until you find the x/y values and use these. 
 
-
+Recommendation:
 In general I recommend to trigger scenes and not controlling seperate lamps. The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. Use delay Nodes in 200-400ms range if you might have a situation, that the http node returns an error.
 Another recommendation is to setup your whole HUE System in one Flow Tab, using Link out/in Nodes to create connections to your Rooms. 
 >> LABEL your Link in/out Nodes, otherwise it will be too confusing. ;)
