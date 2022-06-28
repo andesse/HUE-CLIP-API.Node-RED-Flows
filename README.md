@@ -64,10 +64,14 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Version 3.2 Update:
 --
-I added a new File "SSE_Event_Stream.json"
-This flow can replace the node from "@yadomi/node-red-contrib-philipshue-events" Contrib if ever occour problems.
-You need to Install the contrib "node-red-contrib-sse-client" first before deploying this flow.
-All other Informations are in the Labels of the Flow itself.
+New File "SSE_Event_Stream.json"
+
+This flow can replace the node from "@yadomi/node-red-contrib-philipshue-events"
+First you need to Install the contrib "node-red-contrib-sse-client" before deploying this flow.
+All other Informations are in the Labels of the Flow itself. (Double Click)
+
+If you don’t have any problems with yadomis contrib, there is no need to replace it.
+You can still download this as a backup or try it out.
 
 
 Version 3.1 Update:
