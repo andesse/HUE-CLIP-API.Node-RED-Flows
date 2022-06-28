@@ -62,6 +62,14 @@ Mine runs completly zero issue since i made it, no trouble with my wife anymore.
 If you need help, pull a request or start a discussion, Thanks!
 
 
+Version 3.2 Update:
+--
+I added a new File "SSE_Event_Stream.json"
+This flow can replace the node from "@yadomi/node-red-contrib-philipshue-events" Contrib if ever occour problems.
+You need to Install the contrib "node-red-contrib-sse-client" first before deploying this flow.
+All other Informations are in the Labels of the Flow itself.
+
+
 Version 3.1 Update:
 --
 This version comes with an upgraded "Helper Function Flow"
@@ -102,11 +110,15 @@ Helper Functions for RID / ID discovery (concept by user marc-gist - THANKS!)
 ![helper_functions_flow_v2](https://user-images.githubusercontent.com/76150626/174495416-dbb394b5-c012-482c-a119-eb16cd073171.PNG)
 
 
-
 x/y Color:
-------------
+---
 
 ![IMG_2176](https://user-images.githubusercontent.com/76150626/174091836-1fad1f1d-dd5f-479e-b3ee-bf6b25c18eff.PNG)
+
+SSE_Event_Stream:
+---
+
+![IMG_2261](https://user-images.githubusercontent.com/76150626/176202424-8f7e53db-bb9a-41aa-8ce4-c71f1b153fa5.jpeg)
 
 
 
