@@ -114,11 +114,6 @@ Helper Functions for RID / ID discovery (concept by user marc-gist - THANKS!)
 ![helper_functions_flow_v2](https://user-images.githubusercontent.com/76150626/174495416-dbb394b5-c012-482c-a119-eb16cd073171.PNG)
 
 
-x/y Color (picture credits to HUE):
----
-
-![IMG_2176](https://user-images.githubusercontent.com/76150626/174091836-1fad1f1d-dd5f-479e-b3ee-bf6b25c18eff.PNG)
-
 SSE_Event_Stream:
 ---
 
