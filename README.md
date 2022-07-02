@@ -2,7 +2,7 @@
 
 # hue-clip-api.node-red-flows
 
-This small respository is actually just an example Flow.
+This respository is actually just an example Flow.
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
 You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
 
