@@ -13,7 +13,7 @@ Dont be afraid, replace step-by-step, it will be easy. :)
 
 Thanks to user ralfhille, who created the header node and the concept!
 
->>Version 3.1 Update Info below
+>>Version 3.2 Update Info below
 
 This flow has one contrib, that need zero maintainance! 
 ------------
@@ -88,7 +88,7 @@ It let you easily discover:
 These are stored in context (default) until they are overwritten or erased.
 With another Flow additional included, you can recall all these Informations as an array, or seperately.
 
-PS: there are probably some typos everywhere, bad spelling, or other mistakes in this repository. I launched it in no-time, because i know how high the demand is for a working hue-setup. Forgive me ;)
+PS: there are probably some typos, bad spelling, or other mistakes in this repository. I launched it in no-time, because i know how high the demand is for a working hue-setup. Forgive me ;)
 
 Main Flow:
 ------------
