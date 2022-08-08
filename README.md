@@ -48,9 +48,6 @@ Colors get more complicated. These are x/y values now.
 To determine the right value I recommend to change the color in the app and watch the Event stream.
 Open the color payload until you find the x/y values and use these. 
 
-When you give me a star then it makes me happy! :)
----
-
 Recommendation:
 In general I recommend to trigger scenes and not controlling seperate lamps. The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. Use delay Nodes in 200-400ms range if you might have a situation, that the http node returns an error.
 Another recommendation is to setup your whole HUE System in one Flow Tab, using Link out/in Nodes to create connections to your Rooms. 
