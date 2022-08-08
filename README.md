@@ -16,7 +16,7 @@ Dont be afraid, replace step-by-step, it will be easy. :)
 
 Thanks to user ralfhille, who created the header node and the concept!
 
->>Version 3.2 Update Info below
+>>Version 3.3 Update Info below
 
 This flow has one contrib, that need zero maintainance! 
 ------------
@@ -68,8 +68,6 @@ Version 3.3 Update:
 --
 Alarm Flow added to flash a light red for 5 seconds. It will return to previous state.
 README included in the Flow as usual. Have Fun!
-
-Edit: You could even make a Sub-Flow out of it.
 
 Version 3.2 Update:
 --
