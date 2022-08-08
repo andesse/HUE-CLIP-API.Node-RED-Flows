@@ -64,6 +64,9 @@ Mine runs completly zero issue since i made it, no trouble with my wife anymore.
 
 If you need help, pull a request or start a discussion, Thanks!
 
+>>>> When you give me a star then that makes me happy! <<<<
+---
+
 Version 3.3 Update:
 --
 Alarm Flow added to flash a light red for 5 seconds. It will return to previous state.
