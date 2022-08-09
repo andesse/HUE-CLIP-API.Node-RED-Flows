@@ -69,7 +69,7 @@ When you give me a star then it makes me happy! :)
 
 Version 3.4 Update:
 --
-Motion Sensor Behaviour Flow added, for Sensors that have no configuration. It will trigger Scenes, dim down, and tur off rooms.
+Motion Sensor Behaviour Flow added, for Sensors that have no configuration. It will trigger Scenes, dim down, and turn off rooms.
 Descriptions in the Flow labels.
 
 Version 3.3 Update:
