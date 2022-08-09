@@ -67,6 +67,11 @@ If you need help, pull a request or start a discussion, Thanks!
 When you give me a star then it makes me happy! :)
 ---
 
+Version 3.4 Update:
+--
+Motion Sensor Behaviour Flow added, for Sensors that have no configuration. It will trigger Scenes, dim down, and tur off rooms.
+Descriptions in the Flow labels.
+
 Version 3.3 Update:
 --
 Alarm Flow added to flash a light red for 5 seconds. It will return to previous state.
@@ -133,6 +138,11 @@ SSE_Event_Stream:
 Alarm Flow:
 ---
 ![alarm_flow](https://user-images.githubusercontent.com/76150626/183428922-b1e3e627-eaae-4777-ba6b-d8bcc7738d00.JPG)
+
+
+Motion Sensor Behaviour Flow / Subflow
+---
+![motion sensor behaviour](https://user-images.githubusercontent.com/76150626/183702760-19102a84-9174-4fba-ad38-53cd191c94b3.JPG)
 
 
 My own setup with 2 Bridges / 46 Lights / 6 Motion Sensors / 6 Button / Scenes
