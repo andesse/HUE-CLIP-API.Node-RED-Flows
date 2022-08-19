@@ -68,15 +68,15 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Version 4.0 Update: (files have a V2 prefix)
 ---
-User Fred.Blo created a new approach to setup this flow concept. All credits to him, thanks!
+User FredBlo created a new approach to setup this flow concept. All credits to him, thanks!
 
 >If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
->This is not an replacement for the origial concept, it is a different concept with more parsing inside the nodes.
+>This is not an replacement for the origial concept, it is a different concept with more parsing/code instead using change nodes.
 >This new flow can be downloaded seperately
 
-This will make it probably more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
+This will make it probably more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately if you have an old setup. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
 
->Using this new setup, it is very important that you can save context as file! Otherwise you should use the Header Function Node from the initial release! 
+>When you are using this new setup, it is very important that you can save context as file! Otherwise you should use the Header Function Node >from the initial release! Otherwise it will lose the stored Data after NodeRed reboot.
 
 > 2 new Files:
 > - V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
