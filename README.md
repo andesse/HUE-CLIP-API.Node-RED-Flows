@@ -2,11 +2,11 @@
 
 # hue-clip-api.node-red-flows
 
-Version 4.0 Update Info below
----
 
 Please read the whole readme before use!
 ---
+
+Version 4.0 Update Info below
 
 This respository is an example Flow how to communicate with the HUE-Bridge API V2 over https request  
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
@@ -68,11 +68,11 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Version 4.0 Update: (files have a V2 prefix)
 ---
-User Fred.Blo created a new approach to make this flow concept even more easy to setup. Big shoutout for that!
+User Fred.Blo created a new approach to setup this flow concept.
 
 >If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
 
-This will make it more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
+This will make it probably more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
 
 >Using this new setup, it is very important that you can save context as file! Otherwise you should use the Header Function Node from the initial release! 
 
