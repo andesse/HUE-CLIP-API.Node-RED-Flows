@@ -66,7 +66,7 @@ Mine runs completly zero issue since i made it, no trouble with my wife anymore.
 If you need help, pull a request or start a discussion, Thanks!
 
 
-Version 4.0 Update:
+Version 4.0 Update: (files have a V2 prefix)
 ---
 User Fred.Blo created a new approach to make this flow concept even more easy to setup. Big shoutout for that!
 
