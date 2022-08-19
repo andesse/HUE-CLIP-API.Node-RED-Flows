@@ -2,6 +2,9 @@
 
 # hue-clip-api.node-red-flows
 
+>>Minor change Version 4.0 Update Info below
+---
+
 Please read the whole readme before use!
 ---
 
@@ -13,10 +16,8 @@ With Version 3.1 this is almost as easy to setup like some contribs that are ava
 I am assuming a setup with 1 bridge, 30 lights, 4 motion sensors, 5 buttons, 25 scenes can be done in under 2 hours.
 Dont be afraid, replace step-by-step, it will be easy. :)
 
-
 Thanks to user ralfhille, who created the header node and the concept!
 
->>Version 3.4 Update Info below
 
 This flow has one contrib, that need zero maintainance! 
 ------------
@@ -64,8 +65,43 @@ Mine runs completly zero issue since i made it, no trouble with my wife anymore.
 
 If you need help, pull a request or start a discussion, Thanks!
 
-When you give me a star then it makes me happy! :)
+
+Version 4.0 Update:
 ---
+User Fred.Blo created a new approach to make this flow concept even more easy to setup. Big shoutout for that!
+
+>If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
+
+This will make it more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender"
+
+2 new Files:
+- V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
+- V2_HUE_Event_Sender.json
+
+
+- Existing Subflows (Light, Button & Motion Sensor receivers) are now 'configurable' for easier integration in existing system
+  • ID / RID is set in insert node config
+- New subflow added 'Light Sender' to send commands to lamps easily, using node config :
+  • ID / RID is set in inserted node config
+  • type of light (light point or group of light)
+- The 'bridge link' (receiver & sender) was revamped:
+  • single centralized grouped nodes for all calls
+  • handles 'overflows of calls' (i.e. when the HUE bridge refuses calls because it rate is > 5/sec, they are queued for repeat)
+  • a return value is sent to allow continuing the flow after command was sent
+- removed / merged the 'technical' subflows (only used in configuration part to find the ID's / RID's
+- A bit of 'UI'
+  • Re-organized nodes in groups to make it easier reading / configuring / accessing
+  • Some comments are directly readable without opening them (i.e. double click on it)
+  • added output names to subflows to easily know what to expect as output when reading flow using such nodes (without having to open subflow)
+
+V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
+![IMG_2573](https://user-images.githubusercontent.com/76150626/185602553-eb6f75fc-3c3c-4097-80da-adafb1bb4f51.jpeg)
+
+V2_HUE _Event_Sender.json
+![IMG_2575](https://user-images.githubusercontent.com/76150626/185602590-88ba71d4-9aca-4250-9858-ef5c053bff66.jpeg)
+
+
+
 
 Version 3.4 Update:
 --
@@ -103,7 +139,6 @@ It let you easily discover:
 These are stored in context (default) until they are overwritten or erased.
 With another Flow additional included, you can recall all these Informations as an array, or seperately.
 
-PS: there are probably some typos, bad spelling, or other mistakes in this repository. I launched it in no-time, because i know how high the demand is for a working hue-setup. Forgive me ;)
 
 Main Flow:
 ------------
