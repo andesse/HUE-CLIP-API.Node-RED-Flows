@@ -69,7 +69,7 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Version 4.0 Update: (files have a V2 prefix)
 ---
-User FredBlo created a new approach to setup this flow concept. All credits to him, thanks!
+User FredBlo created a new approach to setup this flow concept. Credits to him for this release, thanks!
 
 >If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
 >This is not an replacement for the origial concept, it is a different concept with more parsing/code instead using change nodes.
