@@ -82,19 +82,17 @@ This will make it probably more easy to set it up initially. It also helps to ha
 
 
 - Existing Subflows (Light, Button & Motion Sensor receivers) are now 'configurable' for easier integration in existing system
-  • ID / RID is set in insert node config
+- ID / RID is set in insert node config
 - New subflow added 'Light Sender' to send commands to lamps easily, using node config :
-  • ID / RID is set in inserted node config
-  • type of light (light point or group of light)
+- ID / RID is set in inserted node config
+- type of light (light point or group of light)
 - The 'bridge link' (receiver & sender) was revamped:
-  • single centralized grouped nodes for all calls
-  • handles 'overflows of calls' (i.e. when the HUE bridge refuses calls because it rate is > 5/sec, they are queued for repeat)
-  • a return value is sent to allow continuing the flow after command was sent
-- removed / merged the 'technical' subflows (only used in configuration part to find the ID's / RID's
-- A bit of 'UI'
-  • Re-organized nodes in groups to make it easier reading / configuring / accessing
-  • Some comments are directly readable without opening them (i.e. double click on it)
-  • added output names to subflows to easily know what to expect as output when reading flow using such nodes (without having to open subflow)
+- single centralized grouped nodes for all calls
+- handles 'overflows of calls' (i.e. when the HUE bridge refuses calls because it rate is > 5/sec, they are queued for repeat)
+- a return value is sent to allow continuing the flow after command was sent
+- Re-organized nodes in groups to make it easier reading / configuring / accessing
+- Some comments are directly readable without opening them (i.e. double click on it)
+- added output names to subflows to easily know what to expect as output when reading flow using such nodes (without having to open subflow)
 
 V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
 ![IMG_2573](https://user-images.githubusercontent.com/76150626/185602553-eb6f75fc-3c3c-4097-80da-adafb1bb4f51.jpeg)
