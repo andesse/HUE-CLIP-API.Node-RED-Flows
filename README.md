@@ -2,7 +2,7 @@
 
 # hue-clip-api.node-red-flows
 
->>Minor change Version 4.0 Update Info below
+# Minor change Version 4.0 Update Info below
 ---
 
 Please read the whole readme before use!
