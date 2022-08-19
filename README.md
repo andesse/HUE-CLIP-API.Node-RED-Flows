@@ -192,7 +192,8 @@ Splitting up rooms on seperate header / http nodes for even better reliability.
 ![IMG_2199](https://user-images.githubusercontent.com/76150626/174289138-f115d757-b054-4122-9439-16d89cb370d3.jpeg)
 
 
-Thanks for the support to:
-yadomi
-marc-gist
-FredBlo
+credits to:
+---
+- yadomi 
+- marc-gist
+- FredBlo
