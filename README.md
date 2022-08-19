@@ -61,7 +61,7 @@ I attached some pictures how the flows / payload / xy Color look like / helper f
 For a full API Documentation you could create an Account at: https://developers.meethue.com/
 
 Hope this ends the struggle with your HUE Setup. 
-Mine runs completly zero issue since i made it, no trouble with my wife anymore. :sweat_smile:
+Mine runs completly zero issue since i made it.
 
 If you need help, pull a request or start a discussion, Thanks!
 
