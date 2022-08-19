@@ -72,7 +72,9 @@ User Fred.Blo created a new approach to make this flow concept even more easy to
 
 >If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
 
-This will make it more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender"
+This will make it more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
+
+>Using this new setup, it is very important that you can save context as file! Otherwise you should use the Header Function Node from the initial release! 
 
 > 2 new Files:
 > - V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
