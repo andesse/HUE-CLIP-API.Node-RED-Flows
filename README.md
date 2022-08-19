@@ -5,6 +5,7 @@
 
 Please read the whole readme before use!
 ---
+>To avoid confusion: you can use the original hue-clip-api.node-red-flows.json file OR the V2 labeled file out of this repository. Both will lead you to a functional HUE system, the V2 approach is slightly different to the original one. You can read the full readme and can decide what fits you more.
 
 Version 4.0 Update Info below
 
