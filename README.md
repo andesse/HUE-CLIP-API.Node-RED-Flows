@@ -69,7 +69,7 @@ If you need help, pull a request or start a discussion, Thanks!
 
 Version 4.0 Update: (files have a V2 prefix)
 ---
-User FredBlo created a new approach to setup this flow concept. Credits to him for this release, thanks!
+User FredBlo supported this repository with a new approach to setup this flow concept. Credits to him for this release, thanks!
 
 >If you have it already running with the initial release (up to v3.4), there is not much need to make these changes.
 >This is not an replacement for the origial concept, it is a different concept with more parsing/code instead using change nodes.
@@ -190,3 +190,9 @@ You also may recognise some pink delay nodes as described.
 Splitting up rooms on seperate header / http nodes for even better reliability.
 
 ![IMG_2199](https://user-images.githubusercontent.com/76150626/174289138-f115d757-b054-4122-9439-16d89cb370d3.jpeg)
+
+
+Thanks for the support to:
+yadomi
+marc-gist
+FredBlo
