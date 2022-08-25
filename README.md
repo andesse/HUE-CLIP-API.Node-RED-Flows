@@ -96,6 +96,8 @@ This will make it probably more easy to set it up initially. It also helps to ha
 - Some comments are directly readable without opening them (i.e. double click on it)
 - added output names to subflows to easily know what to expect as output when reading flow using such nodes (without having to open subflow)
 
+- gradient_stripe.json change node added
+
 V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
 ![IMG_2573](https://user-images.githubusercontent.com/76150626/185602553-eb6f75fc-3c3c-4097-80da-adafb1bb4f51.jpeg)
 
