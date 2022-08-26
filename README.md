@@ -146,7 +146,7 @@ These are stored in context (default) until they are overwritten or erased.
 With another Flow additional included, you can recall all these Informations as an array, or seperately.
 
 
-Main Flow:
+Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 ------------
 ![HUE-CLIP-API_Node-Red-Flows](https://user-images.githubusercontent.com/76150626/174495403-8744d481-e0d6-40d5-8497-0bf7abebe022.PNG)
 
