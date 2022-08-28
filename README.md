@@ -99,6 +99,12 @@ This will make it probably more easy to set it up initially. It also helps to ha
 
 - gradient_stripe.json change node added
 
+- Rate limitation added to pro-actively avoid sending too many calls to HUE bridge
+- Retry management : added a 'loop stopper' : when 10 retries failed, request fails, no more retries to avoid infinite loops creation
+- Error management now manages the 429 error sent back by the bridge (with the 'real' new code the bridge sends back in case of exceeded calls)
+- Some clean-up here and there
+
+
 V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
 ![IMG_2573](https://user-images.githubusercontent.com/76150626/185602553-eb6f75fc-3c3c-4097-80da-adafb1bb4f51.jpeg)
 
