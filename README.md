@@ -69,7 +69,7 @@ Mine runs completly zero issue since i made it.
 If you need help, pull a request or start a discussion, Thanks!
 
 
-Version 4.0 Update: (file has a V2 prefix)
+Version 4.1 Update: (file has a V2 prefix)
 ---
 User FredBlo supported this repository with a new approach to setup this flow concept. Credits to him for this release, thanks!
 
