@@ -9,7 +9,7 @@ Please read the whole readme before use!
 
 >To avoid confusion: you can use the original hue-clip-api.node-red-flows.json file OR the V2 labeled file out of this repository. Both will lead you to a functional HUE system, the V2 approach is slightly different to the original one. You can read the full readme and can decide what fits you more.
 
-Version 4.0 Update Info below
+Version 4.1 Update Info below
 
 This respository is an example Flow how to communicate with the HUE-Bridge API V2 over https request  
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
