@@ -69,7 +69,7 @@ Mine runs completly zero issue since i made it.
 If you need help, pull a request or start a discussion, Thanks!
 
 
-Version 4.0 Update: (files have a V2 prefix)
+Version 4.0 Update: (file has a V2 prefix)
 ---
 User FredBlo supported this repository with a new approach to setup this flow concept. Credits to him for this release, thanks!
 
@@ -80,9 +80,8 @@ User FredBlo supported this repository with a new approach to setup this flow co
 This will make it probably more easy to set it up initially. It also helps to have a cleaner looking Flow. There is one part of the Flow, that can be added seperately if you have an old setup. It is an error handling mechanism for the Bridge timeout, "Event_Sender". 
 
 
-> 2 new Files:
+> new File:
 > - V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
-> - V2_HUE_Event_Sender.json
 
 
 - Existing Subflows (Light, Button & Motion Sensor receivers) are now 'configurable' for easier integration in existing system
@@ -102,11 +101,6 @@ This will make it probably more easy to set it up initially. It also helps to ha
 
 V2_HUE-CLIP-API_Node-Red-Flows_Fred.Blo.json
 ![IMG_2573](https://user-images.githubusercontent.com/76150626/185602553-eb6f75fc-3c3c-4097-80da-adafb1bb4f51.jpeg)
-
-V2_HUE _Event_Sender.json
-![IMG_2575](https://user-images.githubusercontent.com/76150626/185602590-88ba71d4-9aca-4250-9858-ef5c053bff66.jpeg)
-
-
 
 
 Version 3.4 Update:
