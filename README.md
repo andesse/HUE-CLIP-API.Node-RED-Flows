@@ -9,7 +9,7 @@ Please read the whole readme before use!
 
 >To avoid confusion: you can use the original hue-clip-api.node-red-flows.json file OR the V2 labeled file out of this repository. Both will lead you to a functional HUE system, the V2 approach is slightly different to the original one. You can read the full readme and can decide what fits you more.
 
-Version 4.1 Update Info below
+Version 4.2 Change Notes below
 
 This respository is an example Flow how to communicate with the HUE-Bridge API V2 over https request  
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
@@ -66,6 +66,17 @@ Hope this ends the struggle with your HUE Setup.
 Mine runs completly zero issue since i made it.
 
 If you need help, pull a request or start a discussion, Thanks!
+
+Version 4.2 Update:
+---
+User Capusjon had the idea that it might be useful to add 3 Nodes for Enocean / Zigbee green power switches
+>"Fluid Dimming when holding keypress" This is useful for switches like Enocean or zigbee green power devices that send a signal on push and >release. The first node send a request to dim up in 8000ms / second node dim down in 8000ms / third node to stop dimming.
+>The nodes are set to the "light" endpoint and can be easily changed into "grouped_light", additional the ID is needed.
+
+> new File:
+> - /flows/dimming_nodes.json
+
+- 3 nodes for dimming functionality for Enocean / Zigbee green power switches
 
 
 Version 4.1 Update: (file has a V2 prefix)
