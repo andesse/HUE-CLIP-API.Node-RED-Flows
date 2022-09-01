@@ -15,19 +15,18 @@ This respository is an example Flow how to communicate with the HUE-Bridge API V
 It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
 You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
 
-With Version 3.1 this is almost as easy to setup like some contribs that are available.
+From Version 3.1 upwards this is almost as easy to setup like some contribs that are available.
 I am assuming a setup with 1 bridge, 30 lights, 4 motion sensors, 5 buttons, 25 scenes can be done in under 2 hours.
 Dont be afraid, replace step-by-step, it will be easy. :)
 
-Thanks to user ralfhille, who created the header node and the concept!
-
+>Thanks to everyone who participated with ideas and/or additional flows, that made this repoitory even better (credits below)
 
 This flow has one contrib, that need zero maintainance! 
 ------------
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-Thanks to yadomi making this contrib!
+
 
 Before importing my Flow, it is important to install yadomi´s contrib first
 ---
@@ -197,7 +196,7 @@ Splitting up rooms on seperate header / http nodes for even better reliability.
 
 credits to:
 ---
-- ralfhille
+- ralfhille 
 - yadomi 
-- marc-gist
-- FredBlo
+- marc-gist 
+- FredBlo 
