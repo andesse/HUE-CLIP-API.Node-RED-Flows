@@ -3,6 +3,10 @@
 # hue-clip-api.node-red-flows
 
 
+ALERT! DO NOT UPDATE YOUR BRIDGE! PLEASE READ THE OPEN ISSUE!
+---
+
+
 Please read the whole readme before use!
 ---
 - all additional flows are now in the "flows" folder in this repository and can be downloaded there!
