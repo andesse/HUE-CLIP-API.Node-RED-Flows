@@ -1,13 +1,16 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-hue-clip-api.node-red-flows
+# hue-clip-api.node-red-flows
 
+# ALERT! DO NOT UPDATE YOUR BRIDGE! 
+# PLEASE READ THE OPEN ISSUE
 
-ALERT! DO NOT UPDATE YOUR BRIDGE! PLEASE READ THE OPEN ISSUE!
----
+Problem explained here: https://github.com/andesse/hue-clip-api.node-red-flows/issues/25
 
+Workaround here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_light_receiver.json
 
 Please read the whole readme before use!
+---
 
 - all additional flows are now in the "flows" folder in this repository and can be downloaded there!
 
