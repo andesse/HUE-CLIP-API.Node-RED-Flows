@@ -1,6 +1,6 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-# hue-clip-api.node-red-flows
+hue-clip-api.node-red-flows
 
 
 ALERT! DO NOT UPDATE YOUR BRIDGE! PLEASE READ THE OPEN ISSUE!
@@ -8,7 +8,7 @@ ALERT! DO NOT UPDATE YOUR BRIDGE! PLEASE READ THE OPEN ISSUE!
 
 
 Please read the whole readme before use!
----
+
 - all additional flows are now in the "flows" folder in this repository and can be downloaded there!
 
 >To avoid confusion: you can use the original hue-clip-api.node-red-flows.json file OR the V2 labeled file out of this repository. Both will lead you to a functional HUE system, the V2 approach is slightly different to the original one. You can read the full readme and can decide what fits you more.
