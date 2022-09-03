@@ -18,7 +18,8 @@ These changes can be done already, even when you dont have this Firmware. You ca
 
 The new file is here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_receivers.json
 
-Here is a screenshot what is included and the new array payload in the debug window:
+Here is a screenshot what is included and the new array payload in the debug window. Description:
+The converter is set in between your event node (SSE or Yadomi) and the output is conected to the converters. Double click the converters and add your discovered ID.
 
 ![V3_receivers](https://user-images.githubusercontent.com/76150626/188277699-5f3a7cbf-b43f-409a-a95b-e59adaeb7409.JPG)
 
