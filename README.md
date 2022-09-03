@@ -6,7 +6,7 @@
 
 Version 4.3
 ---
-HUE changed the Event-Flow output in the API in a new Beta Firmwaare for groups. I got the beta release 1.53.1953188010
+HUE changed the Event-Flow output for groups in the API with a new Beta Firmware. I got the beta release 1.53.1953188010
 
 Instead of sending payloads for every light/group seperately they changed it into a payload with one big array.
 For the reason that the response data for the group is not always at the same position the array need to be converted to single payloads first. 
