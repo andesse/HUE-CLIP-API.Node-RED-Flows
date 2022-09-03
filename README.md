@@ -13,8 +13,8 @@ For the reason that the response data for the group is not always at the same po
 All the data needed comes now directly as payload, so the subflows need to be replaced with this new version. Everything else seem to work like before.
 
 These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
-> Before you start to change everything, pleas run a quick test with one room.
->> TO BE SAVE, BACKUP YOUR OLD FLOW BEFORE!
+> Before you start to change everything, please run a quick test with one room.
+>> BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
 
 The new file is here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_receivers.json
 
