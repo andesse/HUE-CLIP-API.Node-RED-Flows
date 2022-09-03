@@ -6,7 +6,7 @@
 
 HUE changed the Event-Flow output in the API for groups. I got a beta release (1.53.1953188010) where it changed.
 Instead of sending payloads for every light/group seperately they changed it into a payload with one big array.
-For the reason that the response data for th group is not always at the same position the array need to be converted to single payloads first. 
+For the reason that the response data for the group is not always at the same position the array need to be converted to single payloads first. 
 All the data needed comes now directly as payload, so the subflows need to be replaced with this new version. Everything else seem to work like before.
 
 These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
