@@ -2,12 +2,23 @@
 
 # hue-clip-api.node-red-flows
 
-# ALERT! DO NOT UPDATE YOUR BRIDGE! 
-# PLEASE READ THE OPEN ISSUE
+# ATTENTION! BE CAREFUL UPDATING YOUR BRIDGE! API CHANGES!
 
-Problem explained here: https://github.com/andesse/hue-clip-api.node-red-flows/issues/25
+HUE changed the Event-Flow output in the API for groups. I got a beta release (1.53.1953188010) where it changed.
+Instead of sending payloads for every light/group seperately they changed it into a payload with one big array.
+For the reason that the response data for th group is not always at the same position the array need to be converted to single payloads first. 
+All the data needed comes now directly as payload, so the subflows need to be replaced with this new version. Everything else seem to work like before.
 
-Workaround here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_light_receiver.json
+These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
+> Before you start to change everything, pleas run a quick test with one room.
+>> TO BE SAVE, BACKUP YOUR OLD FLOW BEFORE!
+
+The new file is here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_receivers.json
+
+Here is a screenshot what is included and the new array payload in the debug window:
+
+![V3_receivers](https://user-images.githubusercontent.com/76150626/188277699-5f3a7cbf-b43f-409a-a95b-e59adaeb7409.JPG)
+
 
 Please read the whole readme before use!
 ---
