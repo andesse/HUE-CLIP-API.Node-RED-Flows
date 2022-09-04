@@ -180,7 +180,7 @@ With another Flow additional included, you can recall all these Informations as 
 
 Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 ------------
-![HUE-CLIP-API_Node-Red-Flows](https://user-images.githubusercontent.com/76150626/174495403-8744d481-e0d6-40d5-8497-0bf7abebe022.PNG)
+![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188302753-f2315233-dff8-4192-bcd4-b7bc00be91d2.JPG)
 
 
 -----------------------------------------------------------
