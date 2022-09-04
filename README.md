@@ -52,7 +52,7 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 
 Before importing my Flow, it is important to install yadomi´s contrib first
 ---
-DEPLOYING THE FLOW WITHOUT THIS CONTRIB CAN LEAD TO A RESTART & BOOT LOOP OF YOUR NODE-RED!
+DO NOT DEPLOY WITHOUT HAVING YADOMI CONTRIB INSTALLED!
 ---
 
 Import the Data from the :arrow_right: ***HUE-CLIP-API_Node-Red-Flows.json*** :arrow_left: into a new Flow Tab, AFTER YOU READ THE FULL README!
