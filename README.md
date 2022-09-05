@@ -10,18 +10,19 @@ HUE changed the Event-Flow output for groups in the API with a new Beta Firmware
 
 Instead of sending payloads for every light/group seperately they changed it into a payload with one big array.
 For the reason that the response data for the group is not always at the same position the array need to be converted to single payloads first. 
-All the data needed comes now directly as payload, so the subflows need to be replaced with this new version. Everything else seem to work like before.
+Everything else seem to work like before.
+
+https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
 
 These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
 > Before you start to change everything, please run a quick test with one room.
 >> BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
 
-The new file is here: https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/V3_receivers.json
-
 Here is a screenshot what is included and the new array payload in the debug window. Description:
 The converter is set in between your event node (SSE or Yadomi) and the output is conected to the receivers. Double click the converters and add your discovered ID.
 
-![V3_receivers](https://user-images.githubusercontent.com/76150626/188277699-5f3a7cbf-b43f-409a-a95b-e59adaeb7409.JPG)
+![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188506516-537e9de8-8141-4bba-bf8b-387fba88f2de.JPG)
+
 
 
 Please read the whole readme before use!
