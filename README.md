@@ -9,10 +9,14 @@ Version 4.3
 HUE changed the Event-Flow output for groups in the API with a new Beta Firmware. I got the beta release 1.53.1953188010
 
 Instead of sending payloads for every light/group seperately they changed it into a payload with one big array.
-For the reason that the response data for the group is not always at the same position the array need to be converted to single payloads first. 
+For the reason that the response data for the group is not always at the same position the array need to be split to single payloads first. 
 Everything else seem to work like before.
 
+Updated Flow V1:
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
+
+Array Splitter separately:
+https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/array_splitter.json
 
 These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
 > Before you start to change everything, please run a quick test with one room.
