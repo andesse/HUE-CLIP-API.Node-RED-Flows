@@ -45,11 +45,23 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 
 >Thanks to everyone who participated with ideas and/or additional flows, that made this repoitory even better (credits below)
 
-Installation Instructions:
+### Installation Instructions:
 - Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
-- Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab
-- Deploy
-- In the flow are labels with **step1-step7**
+- Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab, deploy
+- In the flow are labels with **step1-step7**, follow step-by-step
+- **step1** generate a user key for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy
+  Press the button on your Bridge. Inject the Request Node, the debug window will show the username
+- **step2** Configure the hue-events node with your IP and just discovered username
+- **step3** add the same data into the HEADER V2 node, deploy
+- **step4** Inject the "Request all Data" node. This process will take a couple of seconds, the Data will be stored in context (memory)
+- **step5** Now you can use the Inject nodes for different API Endpoints. The data will be shown in the debug window. Discover lights or rooms for the next step
+- **step6** Double click on the blue "HUE Light Receiver" Node. Add the ID (for a light) or the RID (for a Room) inside the node, deploy
+  Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones.
+  Do the same for motion sensors and buttons.
+- **step7** In the flow are several examples how to send actions to the bridge. You can just try it out and see what happens. The description is the node name.
+  Discover yor scenes, like in step5 and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
+  All other actions should be clear by now, build the flow 
+  
 
 
                               
