@@ -35,6 +35,8 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
   Discover yor scenes, like in step5 and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
 - You can start to build your setup.
 
+https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
+
 ### Recomendations / Informations:
 - Do it room-by-room 
 - Build the whole HUE-setup in a single Flow-Tab, use link-in / link-out nodes to connect it to your Rooms
@@ -68,11 +70,10 @@ Instead of sending payloads for every light/group seperately they changed it int
 For the reason that the response data for the group is not always at the same position the array need to be split to single payloads first. 
 Everything else seem to work like before.
 
-Updated Flow V1:
-https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
-
 Array Splitter separately:
-https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/array_splitter.json
+-----------
+![array_splitter](https://user-images.githubusercontent.com/76150626/188687682-3bceea2c-4d40-495e-9eed-42d041415508.JPG)
+
 
 These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
 > Before you start to change everything, please run a quick test with one room.
@@ -83,9 +84,8 @@ The converter is set in between your event node (SSE or Yadomi) and the output i
 
 
 Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
-
 ------------
-![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188302753-f2315233-dff8-4192-bcd4-b7bc00be91d2.JPG)
+![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188687612-092979bd-2711-4c24-9345-51c438d5056e.JPG)
 
 -----------------------------------------------------------
 
