@@ -60,7 +60,7 @@ Version 5.0
 ---
 
 - Merged the V2 approach from FredBlo with the original flow
-- Updated the readme with better Installation Instructions
+- Complete update of the readme, with easy installation instructions
 - Array Splitter function node from FredBlo
 
 ### Another change is coming with upcoming Bridge Firmware, read below. (this is important for everyone already using the flow)
