@@ -10,11 +10,11 @@
 This respository is an example flow how to communicate with https-request to the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more. You won't be dependent on badly maintained contribs anymore. 
 
-As using almost only built-in NodeRed nodes, this repository has one dependence. It is Yadomi's contrib philipshue-events.
+As using almost only built-in NodeRed nodes, this repository has one small dependence, it is Yadomi's contrib philipshue-events.
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-### Before importing this flow, it is important to install yadomi's contrib before. DO NOT DEPLOY WITHOUT!
+### Before importing this flow, it is important to install yadomi's contrib previously. DO NOT DEPLOY WITHOUT!
 
 ———————————————
 
@@ -22,8 +22,8 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 - Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
 - Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab, deploy
 - In the flow are labels with **step1-step7**, follow step-by-step
-- **step1** generate a username for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy
-  Press the button on your Bridge. Inject the Request Node, the debug window will show the username
+- **step1** generate a username for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy.
+Press the button on your Bridge. Inject the Request Node, the debug window will show the username
 - **step2** Configure the hue-events node with your IP and just discovered username
 - **step3** add the same data into the HEADER V2 node, deploy
 - **step4** Inject the "Request all Data" node. This process will take a couple of seconds, the Data will be stored in context (memory)
@@ -32,7 +32,7 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
   Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones.
   Do the same for motion sensors and buttons.
 - **step7** In the flow are several examples how to send actions to the bridge. You can just try it out and see what happens. The description is the node name.
-  Discover yor scenes, like in step5 and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
+  Discover yor scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
 - You can start to build your setup.
 
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
