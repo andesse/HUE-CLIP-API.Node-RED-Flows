@@ -1,24 +1,23 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-# hue-clip-api.node-red-flows
-
 # ATTENTION! BE CAREFUL UPDATING YOUR BRIDGE! API CHANGES!
+#### read Version 5.0 release notes 
 
+—————————————————————————————————————————————————————————
 
-# Please read the whole readme before use!
-
+## Please read the whole readme before use!
 
 This respository is an example flow how to communicate with https-request to the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more. You won't be dependent on badly maintained contribs anymore. 
 
-As using almost only built-in NodeRed nodes, this repository has nne dependence. It is Yadomi's contrib philipshue-events.
+As using almost only built-in NodeRed nodes, this repository has one dependence. It is Yadomi's contrib philipshue-events.
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-### Before importing this flow, it is important to install yadomi's contrib before
+### Before importing this flow, it is important to install yadomi's contrib before. DO NOT DEPLOY WITHOUT!
 
-## DO NOT DEPLOY WITHOUT HAVING YADOMI CONTRIB INSTALLED!
 
+—————————————————————————————————————————————————————————
 
 
 ### Installation Instructions:
@@ -45,27 +44,25 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 - Trigger scenes and not single lights, too much requests at once will be refused by the bridge
   The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. If problems do occure, use the alternative request flow (step3)
 - additional flows are in the "flows" folder in this repository and can be downloaded there
-  
-Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these. 
-
-For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
+- Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these. 
+- For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
 
 If you need help, start a discussion, Thanks!
 
-JPG)
 
 
 ### Shoutout to everyone who participated with great ideas, code, and/or additional flows, that made this repository even better, Thank you! Credits below
 
+—————————————————————————————————————————————————————————
 
 Version 5.0
 ---
 
 - Merged the V2 approach from FredBlo with the original flow. Only one main flow is available now.
 - Updated the readme with better Installation Instructions
-- 
+- Array Splitter fuction from FredBlo
 
-### Another change is coming with upcoming Bridge Firmware, read below. 
+### Another change is coming with upcoming Bridge Firmware, read below. (this is important for everyone already using the flow)
 
 HUE changed the Event-Flow output for groups in the API with a new Beta Firmware. I got the beta release 1.53.1953188010
 
