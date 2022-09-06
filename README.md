@@ -7,7 +7,7 @@
 
 ## Please read the whole readme before use!
 
-This respository is an example flow how to communicate with https-request to the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
+This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more. You won't be dependent on badly maintained contribs anymore. 
 
 As using almost only built-in NodeRed nodes, this repository has one small dependence, it is Yadomi's contrib philipshue-events.
@@ -28,12 +28,11 @@ Press the button on your Bridge. Inject the Request Node, the debug window will 
 - **step3** add the same data into the HEADER V2 node, deploy
 - **step4** Inject the "Request all Data" node. This process will take a couple of seconds, the Data will be stored in context (memory)
 - **step5** Now you can use the Inject nodes for different API Endpoints. The data will be shown in the debug window. Discover lights or rooms for the next step
-- **step6** Double click on the blue "HUE Light Receiver" Node. Add the ID (for a light) or the RID (for a Room) inside the node, deploy
-  Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones.
-  Do the same for motion sensors and buttons.
+- **step6** Double click on the blue "HUE Light Receiver" Node. Add the ID (for a light) or the RID (for a Room) inside the node, deploy. 
+Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones, that need to have status events for your flows.Do the same for motion sensors and buttons.
 - **step7** In the flow are several examples how to send actions to the bridge. You can just try it out and see what happens. The description is the node name.
-  Discover yor scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
-- You can start to build your setup.
+  Discover yor scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes that are needed.
+- Done! You can now start to create your setup.
 
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
 
