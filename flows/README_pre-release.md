@@ -43,13 +43,13 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 
 ## DO NOT DEPLOY WITHOUT HAVING YADOMI CONTRIB INSTALLED!
 
->Thanks to everyone who participated with ideas and/or additional flows, that made this repoitory even better (credits below)
+
 
 ### Installation Instructions:
 - Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
 - Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab, deploy
 - In the flow are labels with **step1-step7**, follow step-by-step
-- **step1** generate a user key for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy
+- **step1** generate a username for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy
   Press the button on your Bridge. Inject the Request Node, the debug window will show the username
 - **step2** Configure the hue-events node with your IP and just discovered username
 - **step3** add the same data into the HEADER V2 node, deploy
@@ -60,43 +60,27 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
   Do the same for motion sensors and buttons.
 - **step7** In the flow are several examples how to send actions to the bridge. You can just try it out and see what happens. The description is the node name.
   Discover yor scenes, like in step5 and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes.
-  All other actions should be clear by now, build the flow 
+- You can start to build your setup.
+
+### Recomendations:
+- Do it room-by-room 
+- Build the whole HUE-setup in a single Flow-Tab, use link-in / link-out nodes to connect it to your Rooms
+- Label those link-in / link-out nodes, otherwise it will be too confusing
+- Trigger scenes and not single lights, too much requests at one will be refused by the bridge
+  The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. If problems do occure, use the alternative request flow (step3)
+- additional flows are in the "flows" folder in this repository and can be downloaded there
   
-
-
-                              
-The Flow has a lot of Comments, it should be easy to figure everything out.
-Depending on how much lights you have, this can take a reasonable amount of time to set it up...
-But believe me, its absolutely worth it!
-
-First you need to fill in your Data in the Nodes, after that you need to discover your device ID´s and RID´s.
-This works using the specific inject Nodes for the Endpoints you want to discover, then unfold the whole payload.
-The Name that you have given in the App for Lights, Rooms, etc., will be in the Metadata payload, so you know, which ID you just discoverd.
-
-The additional files in this repository contain seperately the Sub-Flows, Change-Nodes, Helper Flow, a "get state" node and a different header node. These are already included in the main File. It might come handy to import these when you downloaded a previous release.
-
-Github User marc-gist made a really nice concept for a "helper flow" that makes it easier to discover ID / RID. It's parsing the event-stream payload into a better format. The flow link in Node need to be connected to the http node. It is included in the updated main Flow and can also downloaded seperately. (helper_functions_flow_v2.json). I have attached a picture how it looks like and replaced the main picture as well. Thanks Marc!
-
-Colors get more complicated. These are x/y values now. 
-To determine the right value I recommend to change the color in the app and watch the Event stream.
+Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the Event stream.
 Open the color payload until you find the x/y values and use these. 
 
-Recommendation:
-In general I recommend to trigger scenes and not controlling seperate lamps. The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. Use delay Nodes in 200-400ms range if you might have a situation, that the http node returns an error.
-Another recommendation is to setup your whole HUE System in one Flow Tab, using Link out/in Nodes to create connections to your Rooms. 
->> LABEL your Link in/out Nodes, otherwise it will be too confusing. ;)
+For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
+
+If you need help, start a discussion, Thanks!
+
+### And shoutout to everyone who participated with great ideas, code, and/or additional flows, that made this repository even better, Thank you! Credits below
 
 
-- all additional flows are now in the "flows" folder in this repository and can be downloaded there!
 
-I attached some pictures how the flows / payload / xy Color look like / helper function flow v2 / a screenshot of my own setup
-
-For a full API Documentation you could create an Account at: https://developers.meethue.com/
-
-Hope this ends the struggle with your HUE Setup. 
-Mine runs completly zero issue since i made it.
-
-If you need help, pull a request or start a discussion, Thanks!
 
 Version 4.2 Update:
 ---
@@ -194,11 +178,6 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 -----------------------------------------------------------
 
-Sub-Flows:
----
-![subflows](https://user-images.githubusercontent.com/76150626/174089869-b67e6d15-8ba7-4ab2-8b22-57a2dc43b39e.PNG)
-
-------------------------------------------------------------
 
 Action Change Nodes:
 ---
@@ -227,18 +206,9 @@ Motion Sensor Behaviour Flow / Subflow
 ![motion sensor behaviour](https://user-images.githubusercontent.com/76150626/183702760-19102a84-9174-4fba-ad38-53cd191c94b3.JPG)
 
 
-My own setup with 2 Bridges / 46 Lights / 6 Motion Sensors / 6 Button / Scenes
----
-everything in one Flow Tab, using named link in nodes to connect it to my rooms.
-You also may recognise some pink delay nodes as described.
-Splitting up rooms on seperate header / http nodes for even better reliability.
-
-![IMG_2199](https://user-images.githubusercontent.com/76150626/174289138-f115d757-b054-4122-9439-16d89cb370d3.jpeg)
-
-
 credits to:
 ---
-- ralfhille 
-- yadomi 
-- marc-gist 
-- FredBlo 
+- ralfhille (first concept)
+- yadomi (hue-events contrib)
+- marc-gist (helper flow, to determine the ID/RID in a convenient way)
+- FredBlo (new approach, with a lot of functional improvements for the flow)
