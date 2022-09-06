@@ -29,38 +29,29 @@ The converter is set in between your event node (SSE or Yadomi) and the output i
 
 
 
-Please read the whole readme before use!
----
+# Please read the whole readme before use!
 
-- all additional flows are now in the "flows" folder in this repository and can be downloaded there!
 
->To avoid confusion: you can use the original hue-clip-api.node-red-flows.json file OR the V2 labeled file out of this repository. Both will lead you to a functional HUE system, the V2 approach is slightly different to the original one. You can read the full readme and can decide what fits you more.
+This respository is an example flow how to communicate with https-request to the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
+It includes various sample flows, sub-flows, descriptions and a lot more. You won't be dependent on badly maintained contribs anymore. 
 
-Version 4.2 Change Notes below
-
-This respository is an example Flow how to communicate with the HUE-Bridge API V2 over https request  
-It includes everything you need to communicate with your HUE-Bridge directly using https-request via the restful API V2 (CLIP API)
-You wont be dependent on badly maintained contribs anymore. It has example nodes that can directly edited and used for your flow.
-
-From Version 3.1 upwards this is almost as easy to setup like some contribs that are available.
-I am assuming a setup with 1 bridge, 30 lights, 4 motion sensors, 5 buttons, 25 scenes can be done in under 2 hours.
-Dont be afraid, replace step-by-step, it will be easy. :)
-
->Thanks to everyone who participated with ideas and/or additional flows, that made this repoitory even better (credits below)
-
-This flow has one contrib, that need zero maintainance! 
-------------
+As using almost only built-in NodeRed nodes, this repository has nne dependence. It is Yadomi's contrib philipshue-events.
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
+### Before importing this flow, it is important to install yadomi's contrib before
+
+## DO NOT DEPLOY WITHOUT HAVING YADOMI CONTRIB INSTALLED!
+
+>Thanks to everyone who participated with ideas and/or additional flows, that made this repoitory even better (credits below)
+
+Installation Instructions:
+- Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
+- Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab
+- Deploy
+- In the flow are labels with **step1-step7**
 
 
-Before importing my Flow, it is important to install yadomi´s contrib first
----
-DO NOT DEPLOY WITHOUT HAVING YADOMI CONTRIB INSTALLED!
----
-
-Import the Data from the :arrow_right: ***HUE-CLIP-API_Node-Red-Flows.json*** :arrow_left: into a new Flow Tab, AFTER YOU READ THE FULL README!
                               
 The Flow has a lot of Comments, it should be easy to figure everything out.
 Depending on how much lights you have, this can take a reasonable amount of time to set it up...
@@ -84,6 +75,7 @@ Another recommendation is to setup your whole HUE System in one Flow Tab, using 
 >> LABEL your Link in/out Nodes, otherwise it will be too confusing. ;)
 
 
+- all additional flows are now in the "flows" folder in this repository and can be downloaded there!
 
 I attached some pictures how the flows / payload / xy Color look like / helper function flow v2 / a screenshot of my own setup
 
