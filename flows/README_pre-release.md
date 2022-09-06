@@ -3,7 +3,7 @@
 # ATTENTION! BE CAREFUL UPDATING YOUR BRIDGE! API CHANGES!
 #### read Version 5.0 release notes 
 
-—————————————————————————————————————————————————————————
+———————————————
 
 ## Please read the whole readme before use!
 
@@ -16,9 +16,7 @@ https://github.com/yadomi/node-red-contrib-philipshue-events
 
 ### Before importing this flow, it is important to install yadomi's contrib before. DO NOT DEPLOY WITHOUT!
 
-
-—————————————————————————————————————————————————————————
-
+———————————————
 
 ### Installation Instructions:
 - Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
@@ -53,7 +51,7 @@ If you need help, start a discussion, Thanks!
 
 ### Shoutout to everyone who participated with great ideas, code, and/or additional flows, that made this repository even better, Thank you! Credits below
 
-—————————————————————————————————————————————————————————
+———————————————
 
 Version 5.0
 ---
