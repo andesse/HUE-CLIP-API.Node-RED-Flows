@@ -44,7 +44,8 @@ https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_No
 - Trigger scenes and not single lights, too much requests at once will be refused by the bridge
   The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. If problems do occure, use the alternative request flow (step3)
 - additional flows are in the "flows" folder in this repository and can be downloaded there
-- Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these. 
+- Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these.
+- seperate flows can be found in the "flows" subfolder
 - For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
 
 If you need help, start a discussion, Thanks!
@@ -70,6 +71,10 @@ Instead of sending payloads for every light/group seperately they changed it int
 For the reason that the response data for the group is not always at the same position the array need to be split to single payloads first. 
 Everything else seem to work like before.
 
+The array splitter is set in between your event node (SSE or Yadomi) and the output is connected to the receivers.
+https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/flows/array_splitter.json
+
+
 Array Splitter separately:
 -----------
 ![array_splitter](https://user-images.githubusercontent.com/76150626/188687682-3bceea2c-4d40-495e-9eed-42d041415508.JPG)
@@ -79,8 +84,7 @@ These changes can be done already, even when you dont have this Firmware. You ca
 > Before you start to change everything, please run a quick test with one room.
 >> BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
 
-Here is a screenshot what is included and the new array payload in the debug window. Description:
-The converter is set in between your event node (SSE or Yadomi) and the output is conected to the receivers. Double click the converters and add your discovered ID.
+
 
 
 Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
