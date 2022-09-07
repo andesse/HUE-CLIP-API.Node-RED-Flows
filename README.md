@@ -79,9 +79,8 @@ Array Splitter separately:
 ![array_splitter](https://user-images.githubusercontent.com/76150626/188687682-3bceea2c-4d40-495e-9eed-42d041415508.JPG)
 
 
-These changes can be done already, even when you dont have this Firmware. You can replace your nodes to be prepared before the public Firmware rollout. 
-> Before you start to change everything, please run a quick test with one room.
->> BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
+These change can be done already, even when you dont have this Firmware. You just need to add the node into your setup to be prepared before the public Firmware rollout. 
+>ALWAYS BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
 
 
 
