@@ -55,9 +55,12 @@ Version 5.1
 ---
 - one file added into the flows subfolder >>> motion_sensor_update.json
 - HERE IS NO NEED TO UPDATE, THIS IS NICE TO HAVE
-- the updated flow for the motion endpoint receivers has two benefits, you can see the sensor state (enabled/disabled) and the states for motion and enabled are written directly into flow variables. More details in the flow, just import it and have a look, ;)
+- the updated flow for the motion endpoint receivers has a benefit, you can see the sensor state (enabled/disabled).
 
-![IMG_2722](https://user-images.githubusercontent.com/76150626/192000054-ae89174b-b43b-445e-aaaa-0d3f678e0ed7.jpeg)
+UPDATE for this: I made a mistake thinking variables would work, its not the case. I removed it completely, sorry.
+
+![IMG_2726](https://user-images.githubusercontent.com/76150626/192052817-32535569-39c1-4c79-b8f9-2dbc019ca83b.jpeg)
+
 
 
 Version 5.0
