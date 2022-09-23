@@ -1,7 +1,5 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
-
-# ATTENTION! BE CAREFUL UPDATING YOUR BRIDGE! API CHANGES!
-#### read Version 5.0 release notes 
+ 
 
 ———————————————
 
