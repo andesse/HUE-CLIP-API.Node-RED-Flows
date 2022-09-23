@@ -98,7 +98,7 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 Action Change Nodes:
 ---
-![change nodes](https://user-images.githubusercontent.com/76150626/174089961-f4e00eb9-8726-44b9-8d4,4-d422000f133e.PNG)
+![IMG_2723](https://user-images.githubusercontent.com/76150626/192001918-178e9a6e-8075-4a92-9e0d-f6bfe5792d95.jpeg)
 
 -----------------------------------------------------------
 
