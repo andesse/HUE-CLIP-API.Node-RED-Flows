@@ -51,6 +51,15 @@ If you need help, start a discussion, Thanks!
 
 ———————————————
 
+Version 5.1
+---
+- one file added into the flows subfolder >>> motion_sensor_update.json
+- HERE IS NO NEED TO UPDATE, THIS IS NICE TO HAVE
+- the updated flow for the motion endpoint receivers has two benefits, you can see the sensor state (enabled/disabled) and the states for motion and enabled are written directly into flow variables. More details in the flow, just import it and have a look, ;)
+
+![IMG_2722](https://user-images.githubusercontent.com/76150626/192000054-ae89174b-b43b-445e-aaaa-0d3f678e0ed7.jpeg)
+
+
 Version 5.0
 ---
 
@@ -89,7 +98,7 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 Action Change Nodes:
 ---
-![change nodes](https://user-images.githubusercontent.com/76150626/174089961-f4e00eb9-8726-44b9-8d44-d422000f133e.PNG)
+![change nodes](https://user-images.githubusercontent.com/76150626/174089961-f4e00eb9-8726-44b9-8d4,4-d422000f133e.PNG)
 
 -----------------------------------------------------------
 
