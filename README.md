@@ -1,10 +1,10 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
- 
-# with beta Bridge Firmware 1953188021 
-I am facing issus receiving zero events with yadomiˋs contrib. The SSE flow  that you can find in the flows subfolder, works perfect. Just be aware of upcoming Updates. 
-# Update: Problem solved generating a new key
 
-## Please read the whole readme before use!
+### Attention with beta Bridge Firmware 1953188021 or upcoming new firmware
+I am facing issus receiving zero events with yadomiˋs contrib. The SSE flow  that you can find in the flows subfolder, works perfect. Just be aware of upcoming Updates. 
+##### Update: Problem solved generating a new key
+
+# Please read the whole readme before use!
 
 This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more.
