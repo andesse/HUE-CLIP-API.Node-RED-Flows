@@ -51,6 +51,14 @@ If you need help, start a discussion, Thanks!
 
 ———————————————
 
+Version 5.2
+---
+- Small change again. Changed the alarm_flow.json file in the flows subfolder. 
+- It works now with a function node instead of the node from ultimate boolean logic.
+![IMG_2763](https://user-images.githubusercontent.com/76150626/193428349-13747d6d-59cd-4294-9b25-d1cdda682b9f.jpeg)
+
+
+
 Version 5.1
 ---
 - one file added into the flows subfolder >>> motion_sensor_update.json
