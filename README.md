@@ -49,6 +49,11 @@ If you need help, start a discussion, Thanks!
 
 ### Shoutout to everyone who participated with great ideas, code, and/or additional flows, that made this repository even better, Thank you! Credits below
 
+Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
+------------
+![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188687612-092979bd-2711-4c24-9345-51c438d5056e.JPG)
+
+
 ———————————————
 
 Version 5.2
@@ -95,13 +100,6 @@ Array Splitter separately:
 
 These change can be done already, even when you dont have this Firmware. You just need to add the node into your setup to be prepared before the public Firmware rollout. 
 >ALWAYS BACKUP YOUR OLD FLOW BEFORE, TO AVOID DOUBLE EFFORT IF YOU HAVE AN ISSUE!
-
-
-
-
-Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
-------------
-![HUE-CLIP-API_Node-Red-Flows_json](https://user-images.githubusercontent.com/76150626/188687612-092979bd-2711-4c24-9345-51c438d5056e.JPG)
 
 -----------------------------------------------------------
 
