@@ -1,8 +1,5 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-### Attention with beta Bridge Firmware 1953188021 or upcoming new firmware
-I am facing issus receiving zero events with yadomiˋs contrib. The SSE flow  that you can find in the flows subfolder, works perfect. Just be aware of upcoming Updates. 
-##### Update: Problem solved generating a new key
 
 # Please read the whole readme before use!
 
