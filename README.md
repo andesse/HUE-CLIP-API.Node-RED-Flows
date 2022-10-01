@@ -133,3 +133,5 @@ credits and thanks to:
 - yadomi (hue-events contrib)
 - marc-gist (helper flow, to determine the ID/RID in a convenient way)
 - FredBlo (new approach, with a lot of functional improvements for the flow)
+
+Sponsor Link, buy me a coffee :)
