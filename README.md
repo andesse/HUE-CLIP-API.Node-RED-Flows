@@ -60,7 +60,13 @@ Version 5.2
 ---
 - Small change again. Changed the alarm_flow.json file in the flows subfolder. 
 - It works now with a function node instead of the node from ultimate boolean logic.
+- Before drafting a new release, i also replaced the motion_sensor_bahavior.json flow, that you find in the flows folder.
+It would be a super long text to explain it here, short: it controls a motion sensor thats not configurized.
+Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before. 
+
 ![IMG_2763](https://user-images.githubusercontent.com/76150626/193428349-13747d6d-59cd-4294-9b25-d1cdda682b9f.jpeg)
+
+![IMG_2773](https://user-images.githubusercontent.com/76150626/193459271-a1f7a9e7-c947-45e1-8981-3fce228231dc.jpeg)
 
 
 
@@ -71,7 +77,6 @@ Version 5.1
 - the updated flow for the motion endpoint receivers has a benefit, you can see the sensor state (enabled/disabled).
 
 ![IMG_2726](https://user-images.githubusercontent.com/76150626/192052817-32535569-39c1-4c79-b8f9-2dbc019ca83b.jpeg)
-
 
 
 Version 5.0
