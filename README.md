@@ -25,9 +25,9 @@ Press the button on your Bridge. Inject the Request Node, the debug window will 
 - **step4** Inject the "Request all Data" node. This process will take a couple of seconds, the Data will be stored in context (memory)
 - **step5** Now you can use the Inject nodes for different API Endpoints. The data will be shown in the debug window. Discover lights or rooms for the next step
 - **step6** Double click on the blue "HUE Light Receiver" Node. Add the ID (for a light) or the RID (for a Room) inside the node, deploy. 
-Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones, that need to have status events for your flows.Do the same for motion sensors and buttons.
+Now use your App, turn on / off the light in the room, the subflow will output true/false. Repeat for all lights and rooms / zones, that need to have status events for your flows. Do the same for motion sensors and buttons.
 - **step7** In the flow are several examples how to send actions to the bridge. You can just try it out and see what happens. The description is the node name.
-  Discover yor scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes that are needed.
+Discover your scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes that are needed.
 - Done! You can now start to create your setup.
 
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
@@ -40,12 +40,9 @@ https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_No
   The Bridge is just able to receive max! 5 light / 1 group request per second, less is better. If problems do occure, use the alternative request flow (step3)
 - additional flows are in the "flows" folder in this repository and can be downloaded there
 - Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these.
-- seperate flows can be found in the "flows" subfolder
 - For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
 
-If you need help, start a discussion, Thanks!
-
-
+If you need help, start a discussion and when you are pleased with this repository, click donate and buy me a coffee :) Thanks
 
 ### Shoutout to everyone who participated with great ideas, code, and/or additional flows, that made this repository even better, Thank you! Credits below
 
