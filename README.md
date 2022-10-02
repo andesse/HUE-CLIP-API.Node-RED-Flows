@@ -62,7 +62,8 @@ Version 5.2
 - It works now with a function node instead of the node from ultimate boolean logic.
 - Before drafting a new release, i also replaced the motion_sensor_bahavior.json flow, that you find in the flows folder.
 It would be a super long text to explain it here, short: it controls a motion sensor thats not configurized.
-Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before. 
+Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before.
+It looks super big on the picture, but when everything is in place and with link in / out nodes its fine.
 
 ![IMG_2763](https://user-images.githubusercontent.com/76150626/193428349-13747d6d-59cd-4294-9b25-d1cdda682b9f.jpeg)
 
