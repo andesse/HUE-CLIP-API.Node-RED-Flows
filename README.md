@@ -56,7 +56,8 @@ Version 5.3
 ---
 I made an all-in-one Subflow for: Candle, Fire, Alarm Light, Alarm Group, dynamic Scene effects. It is pretty convenient to use.
 It should work out of the box immediatly. You just need to add the ID in the subflow when ypu double click it.
-There are some description in the Flow as usual. 
+There are some description in the Flow as usual. You can find the file un the flows subfolder. hue_effects.json
+https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/flows/hue_effects.json
 
 ![IMG_2784](https://user-images.githubusercontent.com/76150626/193901650-85ff3179-56eb-4592-bac2-22e159ec6b52.jpeg)
 
