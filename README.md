@@ -66,10 +66,7 @@ https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/flows/hue_effec
 
 Version 5.2
 ---
-### alarm_flow.json depreciated. It got replaced by hue_effects.json in the flows subfolder
-- Small change again. Changed the alarm_flow.json file in the flows subfolder.
-- It works now with a function node instead of the node from ultimate boolean logic.
-- Before drafting a new release, i also replaced the motion_sensor_bahavior.json flow, that you find in the flows folder.
+The motion_sensor_bahavior.json flow got replaced, you can find it in the flows folder.
 It would be a super long text to explain it here, short: it controls a motion sensor thats not configurized.
 Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before.
 It looks super big on the picture, but when everything is in place and with link in / out nodes its fine.
