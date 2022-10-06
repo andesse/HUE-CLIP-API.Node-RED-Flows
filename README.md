@@ -6,7 +6,7 @@
 This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more.
 
-As using almost only built-in NodeRed nodes, this repository has one small dependence, it is Yadomi's contrib philipshue-events.
+As using almost only built-in NodeRed nodes, this repository has one small dependence. It is Yadomi's contrib philipshue-events.
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
@@ -55,7 +55,7 @@ ______________
 Version 5.3
 ---
 I made an all-in-one Subflow for: Candle, Fire, Alarm Light, Alarm Group, dynamic Scene effects. It is pretty convenient to use.
-It should work out of the box immediatly. You just need to add the ID in the subflow when ypu double click it.
+It should work out of the box immediatly. You just need to add the ID in the subflow when you double click it.
 There are some description in the Flow as usual. You can find the file un the flows subfolder. hue_effects.json
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/flows/hue_effects.json
 
@@ -66,10 +66,7 @@ https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/flows/hue_effec
 
 Version 5.2
 ---
-The motion_sensor_bahavior.json flow got replaced, you can find it in the flows folder.
-It would be a super long text to explain it here, short: it controls a motion sensor thats not configurized.
-Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before.
-It looks super big on the picture, but when everything is in place and with link in / out nodes its fine.
+The motion_sensor_bahavior.json flow got replaced, you can find it in the flows folder.It would be a super long text to explain it here, short: this controls a motion sensor thats not configurized in the app. I made it to define the times more accurately. Import it and have a look, there are quite a lot of comments in the flow. No additional contrib needed like before. Looks super big on the picture, but when everything is in place and with link in / out nodes its fine. There are also some additional things as well, probably not needed  
 
 ![IMG_2773](https://user-images.githubusercontent.com/76150626/193459271-a1f7a9e7-c947-45e1-8981-3fce228231dc.jpeg)
 
