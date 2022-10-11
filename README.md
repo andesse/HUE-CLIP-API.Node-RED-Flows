@@ -30,6 +30,8 @@ Now use your App, turn on / off the light in the room, the subflow will output t
 Discover your scenes, (like in step 5) and add a scene ID into the "Recall a Scene" Node, deploy. Use the inject to activate the scene, repeat for all scenes that are needed.
 - Done! You can now start to create your setup.
 
+- Worth to mention: There are some flow examples for special things in the flows subfolder of this repository. Some are described here in the readme, others are not. The name is a hint what it is, just try it out. 
+
 https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_Node-Red-Flows.json
 
 ### Recomendations / Informations:
