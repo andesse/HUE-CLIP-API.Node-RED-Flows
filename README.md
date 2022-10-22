@@ -1,7 +1,7 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
 
-# Please read the whole readme before use!
+# Please read the readme before use!
 
 This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more.
