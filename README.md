@@ -1,5 +1,7 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
+### My system stopped working today, after a bridge update. No more Events from the Hue-Events node from yadomi. The only way to fix this, is to get a new api-token. Use the pair Button in the node config and push the Button of the Bridge.
+
 
 # Please read the readme before use!
 
