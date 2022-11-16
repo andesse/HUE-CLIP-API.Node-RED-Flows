@@ -1,6 +1,6 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-### My system stopped working today, after a bridge update. No more Events from the Hue-Events node from yadomi. My way to fix this was to get a new api-token. Use the pair Button in the node config and push the Button of the Bridge.
+### If your Bridge stops sending Events from yadomi's node (this can be related to Network connectivity loss) try to re-deploy the node, or get a new api token. Restarting Node-RED might work as well.
 
 
 # Please read the readme before use!
