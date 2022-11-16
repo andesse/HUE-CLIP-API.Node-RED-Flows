@@ -12,7 +12,7 @@ As using almost only built-in NodeRed nodes, this repository has one small depen
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-### Before importing this flow, it is important to install yadomi's contrib previously. DO NOT DEPLOY WITHOUT!
+### Before importing this flow, it is important to install yadomi's contrib previously. Do not deploy without, this might Node-RED to stop the flows. 
 
 ———————————————
 
@@ -81,8 +81,8 @@ The motion_sensor_bahavior.json flow got replaced, you can find it in the flows 
 Version 5.1
 ---
 - one file added into the flows subfolder >>> motion_sensor_update.json
-- HERE IS NO NEED TO UPDATE, THIS IS NICE TO HAVE
 - the updated flow for the motion endpoint receivers has a benefit, you can see the sensor state (enabled/disabled).
+- this is just nice to have, try it and decide if its useful for your setup.
 
 ![IMG_2726](https://user-images.githubusercontent.com/76150626/192052817-32535569-39c1-4c79-b8f9-2dbc019ca83b.jpeg)
 
