@@ -1,8 +1,5 @@
 ![IMG_2180](https://user-images.githubusercontent.com/76150626/174133694-50b4d23b-7ee6-42a3-8d64-24de60890dde.jpeg)
 
-### If your Bridge stops sending Events from yadomi's node (this can be related to Network connectivity loss) try to re-deploy the node, or get a new api token. Restarting Node-RED might work as well.
-
-
 # Please read the readme before use!
 
 This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
@@ -45,6 +42,8 @@ https://github.com/andesse/hue-clip-api.node-red-flows/blob/main/HUE-CLIP-API_No
 - additional flows are in the "flows" folder in this repository and can be downloaded there
 - Colors get more complicated. These are x/y values now. To determine the right value I recommend to change the color in the app and watch the EventStream. Open the color payload until you find the x/y values and use these.
 - For a full API Documentation you could create an Account at: https://developers.meethue.com/                              
+
+### If your Bridge stops sending Events from yadomi's node (this can be related to Network connectivity loss) try to re-deploy the node, or get a new api token. Restarting Node-RED might work as well.
 
 If you need help, start a discussion and when you are pleased with this repository, click donate and buy me a coffee :) Thanks
 
