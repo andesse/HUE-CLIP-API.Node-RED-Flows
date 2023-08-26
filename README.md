@@ -55,6 +55,19 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 ______________
 
+Version 5.3.1 Update
+
+I just discovered that it is possible to determine which scene is turned on in the eventstream.
+
+A new subflow is added in the flows folder: flows/scene_active.json  
+Simply add the discovered scene ID and it gives you a true when the scene is turned on.
+This might be come useful in some scenarios. 
+
+
+![IMG_1205](https://github.com/andesse/HUE-CLIP-API.Node-RED-Flows/assets/76150626/f23223ff-66f1-431d-92ae-e2b47450ee20)
+
+
+
 Version 5.3
 ---
 I made an all-in-one Subflow for: Candle, Fire, Alarm Light, Alarm Group, dynamic Scene effects. It is pretty convenient to use.
