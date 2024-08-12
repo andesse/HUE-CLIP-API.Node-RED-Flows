@@ -9,7 +9,7 @@ As using almost only built-in NodeRed nodes, this repository has one small depen
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-### change! instead of using the yadomi contrib, use the approach with the "sse-node" all infos below :)
+### change! instead of using the yadomi contrib, use the approach with the "sse-event-stream" all infos below. This works flawless for me without any issues for more than a year now
 (Before importing this flow, it is important to install yadomi's contrib previously. Do not deploy without, this might Node-RED to stop the flows.)
 
 ———————————————
