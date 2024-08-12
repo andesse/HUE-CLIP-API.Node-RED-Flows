@@ -9,7 +9,8 @@ As using almost only built-in NodeRed nodes, this repository has one small depen
 
 https://github.com/yadomi/node-red-contrib-philipshue-events
 
-### Before importing this flow, it is important to install yadomi's contrib previously. Do not deploy without, this might Node-RED to stop the flows. 
+### change! instead of using the yadomi contrib, use the approach with the "sse-node" all infos below :)
+(Before importing this flow, it is important to install yadomi's contrib previously. Do not deploy without, this might Node-RED to stop the flows.)
 
 ———————————————
 
