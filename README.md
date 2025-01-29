@@ -63,7 +63,9 @@ NEW: Battery Status Subflow
 I created a subflow Node and made some changes at the Helper Flow, its now easy to determine the battery levels,
 and also to output Device Name + Battery status if the level falls under a specified value. 
 
-You will find the file battery_status.json in the flows section for download. 
+You will find the file battery_status.json in the flows section for download. Or use this link:
+https://github.com/andesse/HUE-CLIP-API.Node-RED-Flows/blob/main/flows/battery_status.json
+
 All necessary infos are included in the file as comments. 
 Please read the Instructions at top left first.
 
