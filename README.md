@@ -56,7 +56,7 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 ______________
 
-Version 5.3.2 Update
+**Version 5.3.2 Update**
 
 NEW: Battery Status Subflow
 
@@ -75,7 +75,7 @@ Please read the Instructions at top left first.
 
 ______________
 
-Version 5.3.1 Update
+**Version 5.3.1 Update**
 
 I just discovered that it is possible to determine which scene is turned on in the eventstream.
 
