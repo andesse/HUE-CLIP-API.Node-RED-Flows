@@ -56,9 +56,9 @@ Main Flow (HUE-CLIP-API_Node-Red-Flows.json):
 
 ______________
 
-#Version 5.3.2 Update
+# Version 5.3.2 Update
 
-NEW: Battery Status Subflow
+**NEW:** Battery Status Subflow
 
 I created a subflow Node and made some changes at the Helper Flow, its now easy to determine the battery levels,
 and also to output Device Name + Battery status if the level falls under a specified value. 
@@ -75,7 +75,7 @@ Please read the Instructions at top left first.
 
 ______________
 
-#Version 5.3.1 Update
+# Version 5.3.1 Update
 
 I just discovered that it is possible to determine which scene is turned on in the eventstream.
 
