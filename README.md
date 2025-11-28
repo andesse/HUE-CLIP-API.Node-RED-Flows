@@ -5,13 +5,6 @@
 This respository is an example flow how to communicate using https-request with the HUE-Bridge, using HUE's Restful API V2 (Clip API) 
 It includes various sample flows, sub-flows, descriptions and a lot more.
 
-As using almost only built-in NodeRed nodes, this repository has one small dependence. It is Yadomi's contrib philipshue-events or the contrib-sse, depending on the setup you prefer.
-
-https://github.com/yadomi/node-red-contrib-philipshue-events
-
-### change! instead of using the yadomi contrib, use the approach with the "sse-event-stream" all infos below. This works flawless for me without any issues for more than a year now
-(Before importing this flow, it is important to install yadomi's contrib previously. Do not deploy without, this might Node-RED to stop the flows.)
-
 ———————————————
 
 ### Installation Instructions:
