@@ -8,7 +8,7 @@ It includes various sample flows, sub-flows, descriptions and a lot more.
 ———————————————
 
 ### Installation Instructions:
-- Install "@yadomi/node-red-contrib-philipshue-events" in NodeRed
+- Install node-red-contrib-sse-client in NodeRed
 - Import the Data from the :arrow_right: **HUE-CLIP-API_Node-Red-Flows.json** :arrow_left: into a new Flow Tab, deploy
 - In the flow are labels with **step1-step7**, follow step-by-step
 - **step1** generate a username for this flow in the Bridge, first add the Bridge IP in the labeled node, deploy.
